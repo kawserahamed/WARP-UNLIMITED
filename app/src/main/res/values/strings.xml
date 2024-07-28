@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WARP+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_to_use"><![CDATA[1. First get your 1.1.1.1 app\'s WARP Client ID by navigating to 1.1.1.1 App > Settings > Advanced > Diagnostics and copy the ID under CLIENT CONFIGURATION section (note that you can get that ID only in the mobile app, not in the desktop app)]]></string>
+    <string name="how2">2. Open this app and paste your WARP Client ID and Click START button as shown in the image </string>
+</resources>

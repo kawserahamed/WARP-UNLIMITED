@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WARP" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="UPSIDE_DOWN_CAKE">false</item>
+
+    </style>
+
+    <style name="Theme.WARP" parent="Base.Theme.WARP" />
+</resources>

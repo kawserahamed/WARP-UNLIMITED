@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Total Pass"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_fail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Fail"
+                android:textSize="20sp" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/et_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Type your ID"
+                android:inputType="textWebEditText"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/et_limit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Limit"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Start"
+                android:textAllCaps="true" />
+
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#E91E63"
+                android:text="Stop"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/tv_log"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="@string/app_name" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>
