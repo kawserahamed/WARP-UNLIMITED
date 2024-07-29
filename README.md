@@ -9,15 +9,17 @@ WARP UNLIMITED is an Android app designed to enhance your internet experience by
    - Navigate to `App > Settings > Advanced > Diagnostics`.
    - Copy the ID under the `CLIENT CONFIGURATION` section.
    - *Note*: This ID is only available in the mobile app, not in the desktop app.
-   
-   <img src="https://github.com/user-attachments/assets/3fd6ea47-7b89-4e74-8b3f-d4f1d2aa7ca2" alt="Get WARP Client ID" width="200"/>
+  
+    <img src="https://github.com/user-attachments/assets/331bdcd9-8c51-447b-9a52-38ff2797018d" alt="Use WARP UNLIMITED" width="200"/>
+ 
    
 2. **Use WARP UNLIMITED**:
    - Open the WARP UNLIMITED app. (this app)
    - Paste your WARP Client ID into the provided field.
    - Click the `START` button.
-   
-   <img src="https://github.com/user-attachments/assets/331bdcd9-8c51-447b-9a52-38ff2797018d" alt="Use WARP UNLIMITED" width="200"/>
+  
+     <img src="https://github.com/user-attachments/assets/3fd6ea47-7b89-4e74-8b3f-d4f1d2aa7ca2" alt="Get WARP Client ID" width="200"/>
+
 
 ## Features
 
